@@ -1,15 +1,15 @@
-# Kandi CLI - macOS Binary Releases
+# Kandi CLI - Binary Releases
 
 ![Kandi CLI Logo](kandi-icon.png)
 
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
-[![Latest Release](https://img.shields.io/github/v/release/KandiForge/kandi-cli-osx)](https://github.com/KandiForge/kandi-cli-osx/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-13.0%2B-blue)](https://support.apple.com/macos)
-[![Architecture](https://img.shields.io/badge/Architecture-Intel%20%7C%20Apple%20Silicon-green)](https://github.com/KandiForge/kandi-cli-osx/releases)
+[![Latest Release](https://img.shields.io/github/v/release/KandiForge/kandi-cli-releases)](https://github.com/KandiForge/kandi-cli-releases/releases/latest)
+[![Platforms](https://img.shields.io/badge/Platforms-macOS%20%7C%20Windows%20%7C%20Linux-blue)](https://github.com/KandiForge/kandi-cli-releases/releases)
+[![Architecture](https://img.shields.io/badge/Architecture-x64%20%7C%20ARM64-green)](https://github.com/KandiForge/kandi-cli-releases/releases)
 
 **Kandi CLI** is a powerful, multi-provider AI command-line assistant designed for developers who want to leverage multiple AI APIs seamlessly from their terminal. Built with Rust for performance and reliability, Kandi CLI supports Anthropic API, OpenAI API, and xAI Grok API with advanced features for modern development workflows.
 
-**This repository contains macOS-only binary releases.**
+**This repository contains binary releases for macOS, Windows, and Linux.**
 
 ## 🚀 Quick Installation
 
@@ -25,9 +25,19 @@ npm install -g @KandiForge/kandi-cli
 ```
 
 ### Direct Download
-Download the latest release for your Mac:
-- **Intel Macs**: [kandi-macos-x86_64.tar.gz](https://github.com/KandiForge/kandi-cli-osx/releases/latest/download/kandi-macos-x86_64.tar.gz)
-- **Apple Silicon**: [kandi-macos-arm64.tar.gz](https://github.com/KandiForge/kandi-cli-osx/releases/latest/download/kandi-macos-arm64.tar.gz)
+
+#### macOS
+- **Universal Binary**: [kandi-cli-v1.0.2-macos-universal.tar.gz](https://github.com/KandiForge/kandi-cli-releases/releases/latest/download/kandi-cli-v1.0.2-macos-universal.tar.gz)
+- **Intel Macs**: [kandi-macos-x86_64.tar.gz](https://github.com/KandiForge/kandi-cli-releases/releases/latest/download/kandi-macos-x86_64.tar.gz)
+- **Apple Silicon**: [kandi-macos-arm64.tar.gz](https://github.com/KandiForge/kandi-cli-releases/releases/latest/download/kandi-macos-arm64.tar.gz)
+
+#### Windows
+- **x64**: [kandi-windows-x64.zip](https://github.com/KandiForge/kandi-cli-releases/releases/latest/download/kandi-windows-x64.zip)
+- **ARM64**: [kandi-windows-arm64.zip](https://github.com/KandiForge/kandi-cli-releases/releases/latest/download/kandi-windows-arm64.zip)
+
+#### Linux
+- **x64**: [kandi-linux-x64.tar.gz](https://github.com/KandiForge/kandi-cli-releases/releases/latest/download/kandi-linux-x64.tar.gz)
+- **ARM64**: [kandi-linux-arm64.tar.gz](https://github.com/KandiForge/kandi-cli-releases/releases/latest/download/kandi-linux-arm64.tar.gz)
 
 ## ✨ Key Features
 
@@ -225,21 +235,26 @@ For licensing inquiries: [licensing@abstractclass.net](mailto:licensing@abstract
 
 ### Getting Help
 - **Documentation**: [docs.kandiforge.com](https://docs.kandiforge.com)
-- **Issues**: [GitHub Issues](https://github.com/KandiForge/kandi-cli-osx/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/KandiForge/kandi-cli-osx/discussions)
+- **Issues**: [GitHub Issues](https://github.com/KandiForge/kandi-cli-releases/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/KandiForge/kandi-cli-releases/discussions)
 - **Support**: [support@kandiforge.com](mailto:support@kandiforge.com)
 
-## 🔮 Platform Roadmap
+## 🔮 Platform Support
 
-### Current
-- ✅ **macOS Support** - Intel and Apple Silicon
+### Available Platforms
+- ✅ **macOS** - Universal binary (Intel + Apple Silicon)
+- ✅ **Windows** - x64 and ARM64 binaries
+- ✅ **Linux** - x64 and ARM64 binaries
 
-### Coming Soon
-- **Windows Support** - Native Windows binary
-- **Linux Support** - Ubuntu, CentOS, Arch packages
+### Installation Methods
+- **Homebrew** (macOS/Linux)
+- **npm** (All platforms)
+- **Chocolatey** (Windows) - Coming soon
+- **Scoop** (Windows) - Coming soon
+- **APT/YUM** (Linux) - Coming soon
 
 ---
 
 **Made with ❤️ by Abstract Class Consulting Inc.**
 
-*Kandi CLI - Where AI meets the command line on macOS.*
+*Kandi CLI - Where AI meets the command line.*
