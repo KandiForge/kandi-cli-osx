@@ -61,7 +61,7 @@ brew install kandi-cli
 
 ### npm
 \`\`\`bash
-npm install -g @KandiForge/kandi-cli
+npm install -g kandi-cli
 \`\`\`
 
 ### Direct Download
