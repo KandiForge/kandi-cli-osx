@@ -1,6 +1,6 @@
 # Kandi CLI - macOS Binary Releases
 
-![Kandi CLI Logo](https://github.com/KandiForge/kandi-cli-osx/raw/main/assets/kandi-logo.png)
+![Kandi CLI Logo](kandi-icon.png)
 
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/KandiForge/kandi-cli-osx)](https://github.com/KandiForge/kandi-cli-osx/releases/latest)
